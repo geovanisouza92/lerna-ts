@@ -1,5 +1,5 @@
 {
-  "name": "@awesome/foo",
+  "name": "@awesome/bar",
   "version": "1.0.0",
   "private": true,
   "main": "dist/index",
@@ -13,6 +13,9 @@
     "compile": "tsc -p tsconfig.build.json",
     "prepublishOnly": "npm run build",
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@awesome/foo": "^1.0.0"
   },
   "devDependencies": {
     "typescript": "^3.8.3"
